@@ -1,0 +1,95 @@
+
+<select id="category" name="category" class="old_ui_selector">
+
+
+<option value="0" selected="1">Elige una categoría
+</option>
+<option value="1607">Abogado
+</option>
+<option value="128966563840349">Aeropuerto
+</option>
+<option value="133436743388217">Artes y Entretenimiento
+</option>
+<option value="2231">Artículos deportivos/equipos para actividades al aire libre
+</option>
+<option value="2523">Atracciones/cosas para hacer
+</option>
+<option value="180410821995109">Automotriz
+</option>
+<option value="110290705711626">Bar
+</option>
+<option value="169896676390222">Biblioteca
+</option>
+<option value="200600219953504">Centro comercial/tienda
+</option>
+<option value="192511100766680">Cine
+</option>
+<option value="2101">Club
+</option>
+<option value="188662441155211">Comunidad y gobierno
+</option>
+<option value="186982054657561">Deportes y recreación
+</option>
+<option value="2601">Escuela
+</option>
+<option value="2637">Escuela secundaria
+</option>
+<option value="145887745471348">Estación de trenes
+</option>
+<option value="124861974254366">Excursiones y visitas guiadas
+</option>
+<option value="133152263416981">Hospital/clínica
+</option>
+<option value="164243073639257">Hotel
+</option>
+<option value="198327773511962">Inmobiliaria
+</option>
+<option value="197048876974331">Librería
+</option>
+<option value="205854706429555">Licensed Financial Representative
+</option>
+<option value="209889829023118">Lugar de referencia
+</option>
+<option value="2522">Lugares públicos
+</option>
+<option value="145118935550090">Medicina y salud
+</option>
+<option value="188234584533149">Médico
+</option>
+<option value="108427109235243">Mejora de la página principal
+</option>
+<option value="2528">Museo/galería de arte
+</option>
+<option value="2500">Negocio local
+</option>
+<option value="187714557925874">Organización religiosa
+</option>
+<option value="193705277324704">Organizador de eventos
+</option>
+<option value="2505">Parada de transporte público
+</option>
+<option value="109976259083543">Recinto deportivo y estadio
+</option>
+<option value="1900">Restaurante/cafetería
+</option>
+<option value="179943432047564">Sala de espectáculos
+</option>
+<option value="2512">Servicio bancario/financiero
+</option>
+<option value="187133811318958">Servicio de negocios
+</option>
+<option value="144982405562750">Servicio para mascotas
+</option>
+<option value="176831012360626">Servicio profesional
+</option>
+<option value="139225689474222">Spa/belleza/cuidado personal
+</option>
+<option value="150108431712141">Tienda de Abarrotes
+</option>
+<option value="2526">Transporte
+</option>
+<option value="2602">Universidad
+</option>
+
+
+</select>

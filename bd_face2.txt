@@ -1,0 +1,87 @@
+
+<select id="category" name="category" class="old_ui_selector">
+<option value="0" selected="1">Elige una categoría
+</option>
+<option value="2246">Agricultura
+</option>
+<option value="2252">Alimentos/bebidas
+</option>
+<option value="2239">Artículos de consumo y venta al por menor
+</option>
+<option value="2240">Automóviles y repuestos
+</option>
+<option value="2234">Banco/institución financiera
+</option>
+<option value="150148928375567">Biotecnología
+</option>
+<option value="2606">Causa
+</option>
+<option value="2236">Compañía de seguros
+</option>
+<option value="2255">Computadoras/tecnología
+</option>
+<option value="2250">Educación
+</option>
+<option value="2200">Empresa
+</option>
+<option value="184395321600410">Empresa de transporte y flete
+</option>
+<option value="2238">Energía
+</option>
+<option value="2601">Escuela
+</option>
+<option value="140234236045713">Escuela primaria
+</option>
+<option value="2637">Escuela secundaria
+</option>
+<option value="2244">Espacio aéreo/defensa
+</option>
+<option value="2241">Industria
+</option>
+<option value="2251">Ingeniería/construcción
+</option>
+<option value="2256">Internet/software
+</option>
+<option value="2233">Medios/noticias/editorial
+</option>
+<option value="2245">Minería/materiales
+</option>
+<option value="198503866828628">Organización
+</option>
+<option value="152880021441864">Organización comunitaria
+</option>
+<option value="161422927240513">Organización gubernamental
+</option>
+<option value="2235">Organización no gubernamental (ONG)
+</option>
+<option value="373543049350668">Organización política
+</option>
+<option value="187714557925874">Organización religiosa
+</option>
+<option value="2603">Organización sin fines de lucro
+</option>
+<option value="2618">Partido político
+</option>
+<option value="2237">Pequeña empresa
+</option>
+<option value="180551801986954">Preescolar
+</option>
+<option value="191334714243008">Productos químicos
+</option>
+<option value="2214">Salud/belleza
+</option>
+<option value="2243">Salud/medicina/productos farmacéuticos
+</option>
+<option value="2248">Servicios de asesoría/negocios
+</option>
+<option value="2249">Servicios jurídicos/derecho
+</option>
+<option value="2257">Tabaco
+</option>
+<option value="2253">Telecomunicaciones
+</option>
+<option value="2602">Universidad
+</option>
+<option value="2258">Viajes/ocio
+</option>
+</select>

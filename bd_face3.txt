@@ -1,0 +1,69 @@
+
+<select id="category" name="category" class="old_ui_selector">
+<option value="0" selected="1">Elige una categoría
+</option>
+<option value="2252">Alimentos/bebidas
+</option>
+<option value="2232">Artículos para bebés/niños
+</option>
+<option value="2220">Artículos para el hogar
+</option>
+<option value="2230">Artículos para mascotas
+</option>
+<option value="110249975723427">Artículos para oficina
+</option>
+<option value="2205">Automóviles
+</option>
+<option value="2206">Bolsos/equipaje
+</option>
+<option value="2208">Cámaras/fotografía
+</option>
+<option value="132852590115660">Cocina
+</option>
+<option value="2210">Computadoras
+</option>
+<option value="192647794097278">Decoración de interiores
+</option>
+<option value="150060378385891">Electrodomésticos
+</option>
+<option value="2213">Electrónica
+</option>
+<option value="2217">Equipamiento comercial
+</option>
+<option value="2223">Herramientas/equipamiento
+</option>
+<option value="2209">Indumentaria
+</option>
+<option value="2226">Joyas/relojes
+</option>
+<option value="2303">Juegos de mesa
+</option>
+<option value="2300">Juegos/juguetes
+</option>
+<option value="2216">Materiales de construcción
+</option>
+<option value="2263">Medicamentos
+</option>
+<option value="2219">Muebles
+</option>
+<option value="2301">Página de aplicación
+</option>
+<option value="2222">Patio/jardín
+</option>
+<option value="2201">Producto/servicio
+</option>
+<option value="2214">Salud/belleza
+</option>
+<option value="2202">Sitio web
+</option>
+<option value="2211">Software
+</option>
+<option value="2265">Teléfonos/tabletas
+</option>
+<option value="211579738882707">Videojuegos
+</option>
+<option value="2224">Vinos/licores
+</option>
+<option value="2262">Vitaminas/suplementos
+</option>
+</select>
