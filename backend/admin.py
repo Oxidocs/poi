@@ -1,10 +1,12 @@
 from django.contrib import admin
-from backend.models import Sexo, Perfiles, Rutas, Categorias, Pais, Ciudades, Lugares, Coordenadas,Ranking, Roles, Permisos, Galerias, RedesSociales, Tag, Email, Telefonos
+from backend.models import Sexo, Perfiles, Rutas, Circuitos, Categorias, Subcategorias, Pais, Ciudades, Lugares, Coordenadas,Ranking, Roles, Permisos, Galerias, RedesSociales, Tag, Email, Telefonos
 
 admin.site.register(Sexo)
 admin.site.register(Perfiles)
 admin.site.register(Rutas)
+admin.site.register(Circuitos)
 admin.site.register(Categorias)
+admin.site.register(Subcategorias)
 admin.site.register(Pais)
 admin.site.register(Ciudades)
 admin.site.register(Lugares)

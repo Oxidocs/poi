@@ -25,6 +25,15 @@ class Categorias(models.Model):
 	class Meta:
 		verbose_name_plural = "Categorias"
 
+class Subcategorias(models.Model):
+	nombre = models.CharField(max_length=255)
+	descripcion = models.CharField(max_length=500)
+	categoria = models.ForeignKey(Categorias)
+	def __unicode__(self):
+		return str(self.nombre)
+	class Meta:
+		verbose_name_plural = "Sub Categorias"
+
 class Pais(models.Model):
 	nombre = models.CharField(max_length=255)
 	def __unicode__(self):
@@ -58,11 +67,21 @@ class Lugares(models.Model):
 class Rutas(models.Model):
 	nombre = models.CharField(max_length=255)
 	descripcion = models.CharField(max_length=500)
-	lugares = models.ManyToManyField(Lugares)
+	ciudad = models.ForeignKey(Ciudades)
 	def __unicode__(self):
 		return str(self.nombre)
 	class Meta:
 		verbose_name_plural = "Rutas"
+
+class Circuitos(models.Model):
+	nombre = models.CharField(max_length=255)
+	descripcion = models.CharField(max_length=500)
+	ruta = models.ForeignKey(Rutas)
+	lugares = models.ManyToManyField(Lugares)
+	def __unicode__(self):
+		return str(self.nombre)
+	class Meta:
+		verbose_name_plural = "Circuitos"
 
 class Coordenadas(models.Model):
 	latitude = models.CharField(max_length=255)
