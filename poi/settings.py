@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_gulp',
     'backend'
 ]
 
@@ -129,7 +130,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = "/var/www/poi/poi/static/"
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static")
+    os.path.join(BASE_DIR, "static_dev")
 ]
 
 MEDIA_URL= '/media/'
