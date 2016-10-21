@@ -130,7 +130,8 @@ STATIC_URL = '/static/'
 STATIC_ROOT = "/var/www/poi/poi/static/"
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static_dev")
+    os.path.join(BASE_DIR, "static_dev"),
+    os.path.join(BASE_DIR, "static")
 ]
 
 MEDIA_URL= '/media/'
