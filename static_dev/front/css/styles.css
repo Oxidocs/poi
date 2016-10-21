@@ -1,8 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 .backgroundCover, #slider, section#download, section#packages, section#subscribe, footer {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover; }
 
 body {
@@ -70,9 +67,6 @@ header {
         display: block;
         width: 89px;
         height: 67px;
-        -webkit-transition: all 0.25s ease-in-out;
-        -o-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out; }
       #slider .container #carousel-slider .carousel-control .slider-left {
         background-position: 0 0; }
@@ -85,23 +79,13 @@ header {
     #slider .container .btn-group .btn {
       background: none;
       border: none;
-      -webkit-transition: all 0.25s ease-in-out;
-      -o-transition: all 0.25s ease-in-out;
-      -moz-transition: all 0.25s ease-in-out;
       transition: all 0.25s ease-in-out;
       border: 1px solid transparent;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      -ms-border-radius: 3px;
-      -o-border-radius: 3px;
       border-radius: 3px; }
       #slider .container .btn-group .btn span {
         background: url(../img/sprites.png) no-repeat;
         display: block;
         margin: 5px auto;
-        -webkit-transition: all 0.25s ease-in-out;
-        -o-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out; }
         #slider .container .btn-group .btn span.android {
           background-position: 0 -150px;
@@ -139,8 +123,6 @@ header {
   position: static;
   top: -32px;
   margin-bottom: 0;
-  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   -o-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   background: #FFFFFF;
@@ -150,9 +132,6 @@ header {
     position: fixed;
     top: 0;
     z-index: 99999;
-    -webkit-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out; }
   #nav .navbar-brand img {
     margin-top: 3px; }
@@ -171,9 +150,6 @@ header {
     padding-bottom: 24px;
     font-family: "Open Sans", Tahoma, Arial;
     color: gray;
-    -webkit-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out; }
     #nav .navbar-nav li a:hover {
       color: blue;
@@ -183,9 +159,6 @@ header {
   #nav .navbar-nav.social {
     margin-left: 15px; }
     #nav .navbar-nav.social li {
-      -webkit-transition: all 0.25s ease-in-out;
-      -o-transition: all 0.25s ease-in-out;
-      -moz-transition: all 0.25s ease-in-out;
       transition: all 0.25s ease-in-out; }
       #nav .navbar-nav.social li a {
         padding: 25px 5px; }
@@ -206,10 +179,6 @@ section {
       section#features .feature .icon i {
         border: 1px solid #FFFFFF;
         color: #FFFFFF;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
         border-radius: 50%;
         padding: 15px;
         width: 2em;
@@ -229,9 +198,6 @@ section {
         height: 15px;
         background: #000099;
         border-color: #000099;
-        -webkit-transition: all 0.25s ease-in-out;
-        -o-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out;
         margin: 3px; }
         section#features .carousel-indicators li.active {
@@ -271,23 +237,13 @@ section {
         section#download .container .btn-group .btn {
           background: none;
           border: none;
-          -webkit-transition: all 0.25s ease-in-out;
-          -o-transition: all 0.25s ease-in-out;
-          -moz-transition: all 0.25s ease-in-out;
           transition: all 0.25s ease-in-out;
           border: 1px solid transparent;
-          -webkit-border-radius: 3px;
-          -moz-border-radius: 3px;
-          -ms-border-radius: 3px;
-          -o-border-radius: 3px;
           border-radius: 3px; }
           section#download .container .btn-group .btn span {
             background: url(../img/sprites.png) no-repeat;
             display: block;
             margin: 10px auto;
-            -webkit-transition: all 0.25s ease-in-out;
-            -o-transition: all 0.25s ease-in-out;
-            -moz-transition: all 0.25s ease-in-out;
             transition: all 0.25s ease-in-out; }
             section#download .container .btn-group .btn span.android {
               background-position: 0 -100px;
@@ -380,9 +336,6 @@ section {
         border-radius: 50%;
         padding-top: 11px;
         padding-right: 5px;
-        -webkit-transition: all 0.25s ease-in-out;
-        -o-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out; }
       section#screenshots .owl-next:hover i, section#screenshots .owl-prev:hover i {
         color: blue;
@@ -407,27 +360,13 @@ section {
       background: #FFFFFF;
       text-align: center;
       border: 7px solid #FFFFFF;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      -ms-border-radius: 3px;
-      -o-border-radius: 3px;
       border-radius: 3px;
-      -webkit-transition: all 0.25s ease-in-out;
-      -o-transition: all 0.25s ease-in-out;
-      -moz-transition: all 0.25s ease-in-out;
       transition: all 0.25s ease-in-out;
       margin: 35px 0; }
       section#packages .pack .heading {
         background: #25a7b4;
         color: #FFFFFF;
-        -webkit-border-radius: 3px 3px 0 0;
-        -moz-border-radius: 3px 3px 0 0;
-        -ms-border-radius: 3px 3px 0 0;
-        -o-border-radius: 3px 3px 0 0;
         border-radius: 3px 3px 0 0;
-        -webkit-transition: all 0.25s ease-in-out;
-        -o-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out;
         padding: 20px 15px; }
         section#packages .pack .heading h3 {
@@ -437,14 +376,7 @@ section {
           text-transform: lowercase; }
       section#packages .pack .details {
         background: none;
-        -webkit-transition: all 0.25s ease-in-out;
-        -o-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out;
-        -webkit-border-radius: 0 0 3px 3px;
-        -moz-border-radius: 0 0 3px 3px;
-        -ms-border-radius: 0 0 3px 3px;
-        -o-border-radius: 0 0 3px 3px;
         border-radius: 0 0 3px 3px;
         padding-bottom: 20px; }
         section#packages .pack .details ul {
@@ -465,9 +397,6 @@ section {
           opacity: 0; }
       section#packages .pack:hover {
         border-width: 1px;
-        -webkit-transform: translatey(-30px);
-        -moz-transform: translatey(-30px);
-        -ms-transform: translatey(-30px);
         transform: translatey(-30px); }
         section#packages .pack:hover .heading {
           background: #FFFFFF;
@@ -482,10 +411,6 @@ section {
             background: #25a7b4;
             color: #FFFFFF;
             opacity: 1;
-            -webkit-transform: translatey(45px);
-            -moz-transform: translatey(45px);
-            -ms-transform: translatey(45px);
-            -o-transform: translatey(45px);
             transform: translatey(45px); }
   section#testimonials {
     background: #25a7b4;
@@ -502,10 +427,6 @@ section {
         width: 130px;
         margin: auto;
         border: 5px solid #25a7b4;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        -ms-border-radius: 3px;
-        -o-border-radius: 3px;
         border-radius: 3px; }
       section#testimonials .carousel .carousel-inner h3 {
         text-shadow: none;
@@ -540,9 +461,6 @@ section {
         border-radius: 50%;
         padding-top: 11px;
         padding-right: 5px;
-        -webkit-transition: all 0.25s ease-in-out;
-        -o-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out; }
       section#team .car-next:hover i, section#team .car-prev:hover i {
         color: #6666ff;
@@ -555,9 +473,6 @@ section {
       color: #FFFFFF;
       padding: 20px;
       margin: 30px 0;
-      -webkit-transition: all 0.25s ease-in-out;
-      -o-transition: all 0.25s ease-in-out;
-      -moz-transition: all 0.25s ease-in-out;
       transition: all 0.25s ease-in-out; }
       section#team .member img {
         width: 150px;
@@ -579,9 +494,6 @@ section {
             section#team .member .media .media-heading ul li a i {
               color: #FFFFFF;
               margin: 0 5px;
-              -webkit-transition: all 0.25s ease-in-out;
-              -o-transition: all 0.25s ease-in-out;
-              -moz-transition: all 0.25s ease-in-out;
               transition: all 0.25s ease-in-out; }
               section#team .member .media .media-heading ul li a i:hover {
                 color: #555555; }
@@ -594,9 +506,6 @@ section {
         background: #FFFFFF;
         display: block;
         margin: 10px 0;
-        -webkit-transition: all 0.25s ease-in-out;
-        -o-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out; }
       section#team .member:hover {
         background: #FFFFFF;
@@ -647,10 +556,6 @@ section {
         padding-right: 97px;
         font-size: 20px;
         padding: 6px 20px;
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
-        -ms-border-radius: 2px;
-        -o-border-radius: 2px;
         border-radius: 2px; }
       section#subscribe .form-group .form-control-feedback {
         top: 13px;
@@ -659,17 +564,10 @@ section {
         border: none;
         background: #25a7b4;
         color: #FFFFFF;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        -ms-border-radius: 3px;
-        -o-border-radius: 3px;
         border-radius: 3px;
         text-transform: uppercase;
         padding: 0 15px;
         font-weight: bold;
-        -webkit-transition: all 0.25s ease-in-out;
-        -o-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out; }
         section#subscribe .form-group .form-control-feedback:hover {
           background: #1e8892; }
@@ -722,19 +620,12 @@ footer {
         float: left; }
         footer .social ul li a {
           padding: 15px;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          -ms-border-radius: 50%;
-          -o-border-radius: 50%;
           border-radius: 50%;
           width: 50px;
           height: 50px;
           display: inline-block; }
           footer .social ul li a i {
             color: #FFFFFF;
-            -webkit-transition: all 0.25s ease-in-out;
-            -o-transition: all 0.25s ease-in-out;
-            -moz-transition: all 0.25s ease-in-out;
             transition: all 0.25s ease-in-out; }
           footer .social ul li a:hover {
             background: #FFFFFF; }
@@ -751,36 +642,21 @@ footer {
       color: #FFFFFF; }
 
 .form-control {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  -o-border-radius: 0px;
   border-radius: 0px;
-  -webkit-box-shadow: none;
   box-shadow: none;
   border: none; }
 
 .btn:active, .btn.active {
-  -webkit-box-shadow: none;
   box-shadow: none; }
 
 .btn {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
   border-radius: 3px;
   text-transform: uppercase;
   font-weight: bold;
-  -webkit-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   padding: 12px 18px;
   border: 2px solid #FFFFFF;
   margin-right: 10px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none; }
   .btn:hover {
     border: 2px solid #FFFFFF; }
@@ -800,9 +676,6 @@ footer {
     color: blue; }
 
 a {
-  -webkit-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out; }
 
 .section-heading {
@@ -855,27 +728,15 @@ a {
   background-color: #bdc3c7;
   border-radius: 100%;
   display: inline-block;
-  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
   animation: bouncedelay 1.4s infinite ease-in-out;
   /* Prevent first frame from flickering when animation starts */
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
 .spinner .bounce1 {
-  -webkit-animation-delay: -0.32s;
   animation-delay: -0.32s; }
 
 .spinner .bounce2 {
-  -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s; }
-
-@-webkit-keyframes bouncedelay {
-  0%,
-  80%,
-  100% {
-    -webkit-transform: scale(0); }
-  40% {
-    -webkit-transform: scale(1); } }
 
 @keyframes bouncedelay {
   0%,

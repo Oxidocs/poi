@@ -1,10 +1,22 @@
 var gulp = require ('gulp');
+var plumber = require('gulp-plumber');
+var notify = require('gulp-notify');
 var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
+var uglifycss = require('gulp-uglifycss');
 var bs = require('browser-sync').create();
+
+var plumberErrorHandler = {erroHandler: notify.onError({
+  title:'Gulp',
+  message: 'Error: <%= error.message %>'
+})
+};
 
 gulp.task('sass', function(){
   gulp.src('./front/sass/**/*.scss')
+    .pipe(plumber(plumberErrorHandler))
     .pipe(sass())
+    .pipe(autoprefixer('last 2 versions'))
     .pipe(gulp.dest('./front/css'))
     .pipe(bs.reload({stream: true}));
   });
@@ -32,10 +44,10 @@ gulp.task('default',['sass', 'watch'])
 
 gulp.task('css', function(){
   gulp.src('./front/css/*.css')
-    // .pipe(uglifycss({
-    //   "maxLineLen":80,
-    //   "uglyComments":true
-    // }))
+    .pipe(uglifycss({
+      "maxLineLen":80,
+      "uglyComments":true
+    }))
     .pipe(gulp.dest('../static/front/css'))
 });
 
