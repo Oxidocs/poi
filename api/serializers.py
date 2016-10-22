@@ -4,15 +4,15 @@ from backend.models import Rutas
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = User
-        fields = ('url', 'username', 'email', 'groups')
+	class Meta:
+		model = User
+		fields = ('url', 'username', 'email')
 
 
 class GroupSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Group
-        fields = ('url', 'name')
+	class Meta:
+		model = Group
+		fields = ('url', 'name')
 
 class RutasSerializer(serializers.HyperlinkedModelSerializer):
 	class Meta:
